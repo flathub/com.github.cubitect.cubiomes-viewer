@@ -13,14 +13,14 @@
   </description>
 
   <releases>
-    <release version="2.3.2" date="2022-08-21">
+    <release version="2.3.3" date="2022-08-21">
     </release>
   </releases>
 
   <launchable type="desktop-id">com.github.cubitect.cubiomes-viewer.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://raw.githubusercontent.com/Cubitect/cubiomes-viewer/2.3.2/etc/screenshot_maingui.png</image>
+      <image type="source">https://raw.githubusercontent.com/Cubitect/cubiomes-viewer/2.3.3/etc/screenshot_maingui.png</image>
     </screenshot>
   </screenshots>
 

@@ -21,8 +21,8 @@ modules:
       - install -Dm644 etc/icon.svg /app/share/icons/hicolor/scalable/apps/com.github.cubitect.cubiomes-viewer.svg
     sources:
       - type: archive
-        url: https://github.com/Cubitect/cubiomes-viewer/releases/download/2.3.2/cubiomes-viewer-2.3.2-src.tar.gz
-        sha256: 261d7faa65f6a4a93c8d4f9000050ceeced3ec678b1a089fc34013d4d1cb45aa
+        url: https://github.com/Cubitect/cubiomes-viewer/releases/download/2.3.3/cubiomes-viewer-2.3.3-src.tar.gz
+        sha256: 6f521e31c8e2c56a035c50266f815e63f31da7bd7ee69cc47fa1d3386509fb71
       - type: file
         path: com.github.cubitect.cubiomes-viewer.metainfo.xml
     cleanup:

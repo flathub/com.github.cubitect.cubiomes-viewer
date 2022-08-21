@@ -7,20 +7,20 @@
 
   <developer_name>Cubitect</developer_name>
   <name>Cubiomes Viewer</name>
-  <summary>An efficient graphical Minecraft seed finder and map viewer.</summary>
+  <summary>An efficient Minecraft seed finder and map viewer.</summary>
   <description>
-    <p>Cubiomes Viewer offers highly customizable seed-finding utilities and a map viewer for the Minecraft biome and structure generation.</p>
+    <p>Cubiomes Viewer offers highly customizable seed-finding utilities and a map viewer for the biome and structure generation of Minecraft Java Edition for the main releases up to 1.19.</p>
   </description>
 
   <releases>
-    <release version="2.3.1" date="2022-08-08">
+    <release version="2.3.2" date="2022-08-21">
     </release>
   </releases>
 
   <launchable type="desktop-id">com.github.cubitect.cubiomes-viewer.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://raw.githubusercontent.com/Cubitect/cubiomes-viewer/2.3.1/etc/screenshot_maingui.png</image>
+      <image type="source">https://raw.githubusercontent.com/Cubitect/cubiomes-viewer/2.3.2/etc/screenshot_maingui.png</image>
     </screenshot>
   </screenshots>
 

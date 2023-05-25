@@ -16,15 +16,17 @@ modules:
       - CONFIG+=release
     post-install:
       - install -Dm755 cubiomes-viewer /app/bin/cubiomes-viewer
-      - install -Dm644 com.github.cubitect.cubiomes-viewer.metainfo.xml -t /app/share/metainfo/
+      - install -Dm644 etc/com.github.cubitect.cubiomes-viewer.metainfo.xml -t /app/share/metainfo/
       - install -Dm644 etc/com.github.cubitect.cubiomes-viewer.desktop -t /app/share/applications/
       - install -Dm644 etc/icon.svg /app/share/icons/hicolor/scalable/apps/com.github.cubitect.cubiomes-viewer.svg
     sources:
       - type: archive
-        url: https://github.com/Cubitect/cubiomes-viewer/releases/download/3.2.1/cubiomes-viewer-3.2.1-src.tar.gz
-        sha256: a06e2fc9c2029ca91167308632856482fe4a2109d7599b8ea285ec0bf82a6534
-      - type: file
-        path: com.github.cubitect.cubiomes-viewer.metainfo.xml
+        url: https://github.com/Cubitect/cubiomes-viewer/releases/download/3.3.0/cubiomes-viewer-3.3.0-src.tar.gz
+        sha256: 8189f248b58ba56983d1457bd1bbd2f28105b1d10f01f5766ff6b476fa396a93
+        x-checker-data:
+          type: json
+          url: https://api.github.com/repos/Cubitect/cubiomes-viewer/releases/latest
+          version-query: .tag_name
+          url-query: .assets[] | select(.name|endswith("-src.tar.gz")) | .browser_download_url
     cleanup:
       - /lib
-
